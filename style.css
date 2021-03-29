@@ -1,0 +1,46 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+
+    background: url(landing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-size: 3em;
+    
+}
+
+hr {
+    border-color: blue;
+    border-width: 5px;
+    max-width: 65px;
+}
+
+.buffer {
+    height: 25rem;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: #E315E3;
+    border-color: #E315E3;
+
+}
+
+.btn-primary:hover{
+    background-color: #E315E3;
+    border-color: #E315E3;
+    border-width: 4px;
+}
+.btn-xl {
+    padding: 1rem 2rem;
+}
